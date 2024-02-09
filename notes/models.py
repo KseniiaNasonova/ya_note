@@ -9,7 +9,7 @@ class Note(models.Model):
         'Заголовок',
         max_length=100,
         default='Название заметки',
-        help_text='Дайте короткое название заметке'
+        help_text='Дайте короткое название заметке_'
     )
     text = models.TextField(
         'Текст',
